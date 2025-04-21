@@ -37,6 +37,9 @@ public class JavaBasico {
                     
                 case 3:
                     
+                case 4:
+                    //Aqui estoy haciendo cambios
+                    
 //                ...
                 default:
                     System.out.println("Opcion no encontrana, Intente Nuevamnete");
