@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package data;
 
-/**
- *
- * @author Soporte
- */
 public class OperadoresAritmeticos {
     
+    public void principal(){
+        System.out.println("===========================================");
+        System.out.println("Bienvenido al Modulo Operadores Aritmeticos");
+        System.out.println("===========================================");
+        
+        int a = 100;
+        int b = 70;
+        
+        System.out.println("Operador Aritmetico Suma (+)");
+        System.out.println("100 + 70 = "+ (a+b));
+        System.out.println("Resta");
+        System.out.println("Multiplicación");
+        System.out.println("División");
+        System.out.println("Modulo");
+             
+    }
 }

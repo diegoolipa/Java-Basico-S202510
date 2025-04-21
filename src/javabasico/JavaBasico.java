@@ -1,5 +1,6 @@
 package javabasico;
 
+import data.OperadoresAritmeticos;
 import data.OperadoresLogicos;
 import java.util.Scanner;
 
@@ -34,7 +35,9 @@ public class JavaBasico {
                     ol.principal();
                     break;
                 case 2:
-                    
+                    OperadoresAritmeticos oa = new OperadoresAritmeticos();
+                    oa.principal();
+                    break;
                 case 3:
                     
                 case 4:
